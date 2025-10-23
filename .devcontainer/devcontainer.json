@@ -1,0 +1,23 @@
+{
+  "name": "Rust Playground",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": [
+        "rust-lang.rust-analyzer",
+        "dustypomerleau.rust-syntax",
+        "fill-labs.dependi",
+        "vscode.git",
+        "Gruntfuggly.todo-tree"
+      ]
+    }
+  },
+  "features": {
+		"ghcr.io/devcontainers/features/rust:1": {}
+	}
+}
